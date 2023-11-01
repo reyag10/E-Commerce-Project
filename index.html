@@ -88,11 +88,13 @@
     </nav>
     <!--Navbar End-->
 
-    <!--Slider Start-->
+    <!-- Slider Start -->
+
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="col-12 mx-auto">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    style="background-color: rgba(128, 128, 128, 0.238)">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,13 +105,43 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/Image/5.jpg" class="d-block w-100" alt="...">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="https://freepngimg.com/save/9917-banana-png/256x256" class="d-block w-25"
+                                    alt="..." />
+                                <div class="w-50">
+                                    <h1>Bangla Banana</h1>
+                                    
+                                    <p class="text-justify">A banana is an elongated, edible fruit botanically a berry produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas.</p>
+                                    
+                                    <button class="btn btn-danger">Order Now</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/Image/8.jpg" class="d-block w-100" alt="...">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="https://icons.iconarchive.com/icons/artbees/paradise-fruits/256/Tomato-icon.png"
+                                    class="d-block w-25" alt="..." />
+                                <div class="w-50">
+                                    <h1>Bangla Tomatto</h1>
+                                    <p>
+                                        The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America. The Nahuatl word tomatl gave rise to the Spanish word tomate, from which the English word tomato derived.
+                                    </p>
+                                    <button class="btn btn-warning">Order Now</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/Image/15.jpg" class="d-block w-100" alt="...">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <img src="https://cdn-icons-png.flaticon.com/256/1041/1041355.png" class="d-block w-25"
+                                    alt="..." />
+                                <div class="w-50">
+                                    <h1> The Carrot </h1>
+                                    <p>
+                                        The carrot is a root vegetable, typically orange in color, though heirloom variants including purple, black, red, white, and yellow cultivars exist, all of which are domesticated forms of the wild carrot, Daucus carota, native to Europe and Southwestern Asia.
+                                    </p>
+                                    <button class="btn btn-primary">Order Now</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -126,7 +158,8 @@
             </div>
         </div>
     </div>
-    <!--Slider End-->
+    <!-- Slider End -->
+
 
     <!--Product Category Start-->
     <div class="container my-5">
@@ -197,60 +230,119 @@
 
     <!--Product Category End-->
 
-    <!--Popular Products Section start-->
-    <div class="container">
-        <h1 class="text-center">Top Products</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <!-- Popular products section start -->
+    <div class="container my-5">
+        <h1 class="text-center mt-5">Popular Products</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5 g-4">
             <div class="col">
-                <div class="card-group">
-                    <div class="card">
-                        <img src="https://cdn-icons-png.flaticon.com/256/4910/4910572.png" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"> Bathroom Sink</h4>
-                            <h6> In Stock </h6>
-                            <p class="card-text">Taka 124.00/each</p>
-                            <button type="button" class="btn btn-danger"> Buy Now </button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 days ago</small>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block"
+                            src="https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/256/256/true/eyJpZCI6ImYzODViMzk3ZmNhZGM5ZjRjZmMxOTM0ZDZjMWRiN2U1LnBuZyIsInN0b3JhZ2UiOiJwdWJsaWNfc3RvcmUifQ?signature=221bca19a7e533222c8389e005b386d43e43407db459eaa6043da31048a2e5ed"
+                            alt="" />
+                        <h2 class="card-title">Deshi Potato</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
                     </div>
-                    <div class="card">
-                        <img src="https://cdn.shopify.com/s/files/1/0178/4982/products/GreyLogoTee-Back_256x256_crop_center.png?v=1656465974"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"> Relexed T-Shirt</h4>
-                            <h6> In Stock </h6>
-                            <p class="card-text">Taka 300.00/each</p>
-                            <button type="button" class="btn btn-danger"> Buy Now </button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://akn-randb.a-cdn.akinoncloud.com/cms/2023/07/24/4d7a0c96-2c58-4299-a39a-6fdd1f54bc2a_size256_cropCenter.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title">Women's Watch </h4>
-                            <h6> In Stock</h6>
-                            <p class="card-text">Taka 2300.00/each</p>
-                            <button type="button" class="btn btn-danger"> Buy Now </button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
                     </div>
                 </div>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block"
+                            src="https://icons.iconarchive.com/icons/artbees/paradise-fruits/256/Tomato-icon.png"
+                            alt="" />
+                        <h2 class="card-title">Tomato</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block"
+                            src="https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/256/256/true/eyJpZCI6IjRmMzIwMjFhYTk5OTY5MmM4OWQ2ZmZhNWVhYTNjNTRmIiwic3RvcmFnZSI6InB1YmxpY19zdG9yZSJ9?signature=a88ad7101cd717780bf9d70afe695c4256dc375f80dd96cfdb6bee5feeb85d7d"
+                            alt="" />
+                        <h2 class="card-title">Nuts</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block" src="https://ark.wiki.gg/images/3/3e/Auric_Mushroom.png"
+                            alt="" />
+                        <h2 class="card-title">Mashroom</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block" src="https://cdn-icons-png.flaticon.com/256/6531/6531389.png"
+                            alt="" />
+                        <h2 class="card-title">Lettuce</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-75 mx-auto d-block"
+                            src="https://static.vecteezy.com/system/resources/previews/027/214/959/original/garlic-garlic-garlic-transparent-background-ai-generated-free-png.png"
+                            alt="" />
+                        <h2 class="card-title">Fenal</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            at.
+                        </p>
+                        <span class="text-primary">$20/kg</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!--Popular Products Section end-->
-
+    <!-- Popular products section end -->
     <!--Pagination Start-->
     <div class="container">
         <nav aria-label="Page navigation example mb-4">
@@ -259,6 +351,9 @@
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
         </nav>
